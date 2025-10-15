@@ -23,3 +23,8 @@ Tweak: Changed and tested graph outputs with several names.
 We got to implement a chain of messages assuming different roles, then we added a "divide function" as a tool and made some tool calls. We used messages as states and then used reducers to append messages. Made graphs using the messageStates and then tested our tool call.
 
 Tweak: Messages were personalised along with tool changed from multiply to divide along with arguments used in tool call
+
+# Lesson 5:
+We got to implement toolnodes which work as a router to help us decide when and when not to use a tool using toolCondition. We tested it with divide tool and hello earth messages. We also tested the same thing in router as well.
+
+Tweak: Multiply tool was changed to divide in studio as well as the notebook.
