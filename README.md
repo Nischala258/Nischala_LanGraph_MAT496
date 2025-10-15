@@ -28,3 +28,8 @@ Tweak: Messages were personalised along with tool changed from multiply to divid
 We got to implement toolnodes which work as a router to help us decide when and when not to use a tool using toolCondition. We tested it with divide tool and hello earth messages. We also tested the same thing in router as well.
 
 Tweak: Multiply tool was changed to divide in studio as well as the notebook.
+
+# Lesson 6:
+We implement an agent by simply adding another edge back from tools to the assistant and see how multiple operations can be performed by just one single message hence increasding the control level of the agent. 
+
+Tweaks: We replaced divide operation by subtract and changed the systemMessage. Made similar changes in studio file as well.

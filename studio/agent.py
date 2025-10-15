@@ -23,8 +23,8 @@ def multiply(a: int, b: int) -> int:
     """
     return a * b
 
-def divide(a: int, b: int) -> float:
-    """Divide a and b.
+def sub(a: int, b: int) -> float:
+    """Subtract a and b.
 
     Args:
         a: first int
@@ -32,14 +32,14 @@ def divide(a: int, b: int) -> float:
     """
     return a / b
 
-tools = [add, multiply, divide]
+tools = [add, multiply, sub]
 
 # Define LLM with bound tools
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", api_key=os.getenv("GOOGLE_API_KEY"))
 llm_with_tools = llm.bind_tools(tools)
 
 # System message
-sys_msg = SystemMessage(content="You are a helpful assistant tasked with writing performing arithmetic on a set of inputs.")
+sys_msg = SystemMessage(content="You are a calculator.")
 
 # Node
 def assistant(state: MessagesState):
