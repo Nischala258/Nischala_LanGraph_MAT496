@@ -18,3 +18,8 @@ Tweak: Changed the graph nodes from happy and sad to grumpy and sleepy, while al
 Learned how to run studio as a project which opens a UI on the web browser and we can easily play and interact to make new threads and look how the decisions are made clearly in the graph interactive image provided on the url.
 
 Tweak: Changed and tested graph outputs with several names.
+
+# Lesson 4:
+We got to implement a chain of messages assuming different roles, then we added a "divide function" as a tool and made some tool calls. We used messages as states and then used reducers to append messages. Made graphs using the messageStates and then tested our tool call.
+
+Tweak: Messages were personalised along with tool changed from multiply to divide along with arguments used in tool call
