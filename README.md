@@ -13,3 +13,8 @@ Overview of what LangGraph is and how it can help us visualise and understand th
 We get to learn what a graph is and how to invoke different states, nodes and edges. We also try out a simple graph invokation and see how decision takes place in them.
 
 Tweak: Changed the graph nodes from happy and sad to grumpy and sleepy, while also adding my own name to it.
+
+# Lesson 3:
+Learned how to run studio as a project which opens a UI on the web browser and we can easily play and interact to make new threads and look how the decisions are made clearly in the graph interactive image provided on the url.
+
+Tweak: Changed and tested graph outputs with several names.
