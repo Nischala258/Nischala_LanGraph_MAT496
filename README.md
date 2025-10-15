@@ -33,3 +33,8 @@ Tweak: Multiply tool was changed to divide in studio as well as the notebook.
 We implement an agent by simply adding another edge back from tools to the assistant and see how multiple operations can be performed by just one single message hence increasding the control level of the agent. 
 
 Tweaks: We replaced divide operation by subtract and changed the systemMessage. Made similar changes in studio file as well.
+
+# Lesson 7: 
+We learned and implemented checkpointers to save graph states to mimic giving our agent memory as a key-value store for graph states. The states achieved in the past can be stored as thread ids and later used to further assist the operations.
+
+Tweak: changed divide operation to subtract along with the arguments used as well.
