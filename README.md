@@ -48,3 +48,11 @@ We learned and implemented checkpointers to save graph states to mimic giving ou
 We learn how to make a typeDict and DataClass and how to pass them to state and invoke the Graph. We also learn how to do the above with Pydantic which can validate the data. 
 
 **Tweak:** Changed mood to places (Mumbai and Delhi). 
+
+## Lesson 2: 
+We learn how InvalidErrorUpdate gives and error when there’s an ambiguity in the code. 
+We use reducers to avoid errors and give instructions to the state. We can also custom design these reducer functions. We learnt about MessageState and add_messages (reducer) .
+We see how we can use message ids to re write and remove messages. 
+
+**Tweaks:**  Changed the variables and the operation. Changed the messages and the ids (from numbers to letters). 
+
