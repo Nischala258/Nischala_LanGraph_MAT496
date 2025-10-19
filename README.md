@@ -56,3 +56,7 @@ We see how we can use message ids to re write and remove messages.
 
 **Tweaks:**  Changed the variables and the operation. Changed the messages and the ids (from numbers to letters). 
 
+## Lesson 3: 
+We learn about PrivateState that is used to interact between nodes, but it not present in the output which is provided by the overallState. We can also use input and output filters to restrict what is seen in the output schema. 
+
+**Tweaks:** Changed the variables and messages. 
