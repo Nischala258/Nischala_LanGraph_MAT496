@@ -60,3 +60,8 @@ We see how we can use message ids to re write and remove messages.
 We learn about PrivateState that is used to interact between nodes, but it not present in the output which is provided by the overallState. We can also use input and output filters to restrict what is seen in the output schema. 
 
 **Tweaks:** Changed the variables and messages. 
+
+## Lesson 4:
+We learn how to filter messages using RemoveMessages to see only the last two messages and delete the rest.  We also learn about trimming which reduces the number of tokens that are passed to the LLM. 
+
+**Tweaks:** Changed OpenAI to Gemini and GoogleAI. Changed the messages and ids. 
