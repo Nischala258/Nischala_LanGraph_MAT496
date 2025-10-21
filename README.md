@@ -65,3 +65,8 @@ We learn about PrivateState that is used to interact between nodes, but it not p
 We learn how to filter messages using RemoveMessages to see only the last two messages and delete the rest.  We also learn about trimming which reduces the number of tokens that are passed to the LLM. 
 
 **Tweaks:** Changed OpenAI to Gemini and GoogleAI. Changed the messages and ids. 
+
+## Lesson 5:
+We learn how to setup an assistant to summarize conversations when they get too long. This summary lives in state. We use a checkpointer to persist state through time. 
+
+**Tweaks:** I changed the model to Gemini. The condition for summarization was changed. The messages and ids were changed. 
