@@ -70,3 +70,8 @@ We learn how to filter messages using RemoveMessages to see only the last two me
 We learn how to setup an assistant to summarize conversations when they get too long. This summary lives in state. We use a checkpointer to persist state through time. 
 
 **Tweaks:** I changed the model to Gemini. The condition for summarization was changed. The messages and ids were changed. 
+
+## Lesson 6:
+We learn how to use checkpointers like SQlite which writes the conversations to the database in the system, which saves it in the external memory. 
+
+**Tweaks:** Changed the model to Gemini and GoogleAI. Changed the thread id and messages. Changed the model in studio file as well. 
