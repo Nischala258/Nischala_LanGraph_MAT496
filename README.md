@@ -93,3 +93,8 @@ We learn how to use breakpoints like  interrupt_before() and interrupt_after() t
 We us interrupt_before and learn how to edit the tools using graph.update_state. We can do this via Langgraph API as well. We can also get user input for calling a node by creating a dummy node and using human_feedbcak in that node. 
 
 **Tweaks:** Changed the model from OpenAI to GoogleAI and Gemini. Changed the tools. 
+
+## Lesson 4:
+We learn how to use NodeInterrupt as a dynamic breakpoint (which interrupts the state itself based on a condition)
+
+**Tweaks:** Changed the Interrupt condition
