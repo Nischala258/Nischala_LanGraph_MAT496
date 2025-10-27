@@ -75,3 +75,10 @@ We learn how to setup an assistant to summarize conversations when they get too 
 We learn how to use checkpointers like SQlite which writes the conversations to the database in the system, which saves it in the external memory. 
 
 **Tweaks:** Changed the model to Gemini and GoogleAI. Changed the thread id and messages. Changed the model in studio file as well. 
+
+
+# Module 3
+## Lesson 1:
+We learn how to stream in two different ways. Values which stream the full state of the node and Updates which streams only the updates that are made to the node. We learn about .astream which the asynchronous version of streaming which streams model output as they are being generated. 
+
+**Tweaks:** Changed the model from openAI to GoogleAI and Gemini. Made changes in the messages and ids. 
