@@ -98,3 +98,10 @@ We us interrupt_before and learn how to edit the tools using graph.update_state.
 We learn how to use NodeInterrupt as a dynamic breakpoint (which interrupts the state itself based on a condition)
 
 **Tweaks:** Changed the Interrupt condition
+
+
+## Lesson 5:
+We learn that we can get the state of the graph at any given time using graph.get_state and the history of the state using get_state_history  .
+We can replay checkpoints by passing the checkpoint id while streaming. We learn how to fork previous checkpoints. We can do this using Langchain API as well. 
+
+**Tweaks :** Changed the model from openAI to Gemini and GoogleAI. Changed the tool.
