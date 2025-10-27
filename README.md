@@ -87,3 +87,9 @@ We learn how to stream in two different ways. Values which stream the full state
 We learn how to use breakpoints like  interrupt_before() and interrupt_after() to stop at a particular node. Then we use user_approval to involve human decision before calling a tool. 
 
 **Tweaks:** Changed the model from openAI to GoogleAI and Gemini. Changed the tools. 
+
+
+## Lesson 3: 
+We us interrupt_before and learn how to edit the tools using graph.update_state. We can do this via Langgraph API as well. We can also get user input for calling a node by creating a dummy node and using human_feedbcak in that node. 
+
+**Tweaks:** Changed the model from OpenAI to GoogleAI and Gemini. Changed the tools. 
