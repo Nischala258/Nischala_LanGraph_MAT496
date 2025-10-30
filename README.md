@@ -116,3 +116,12 @@ We learn how to do parallelisation without causing any errors and ambiguity usin
 We learn how to build sub graphs which help us manage different states in a graph. 
 
 **Tweaks:** Changed the content given to the nodes. 
+
+## Lesson 3:
+We learn the two phases of Map and reduce – Map (processing sub tasks) and reduce ( compile the results of the sub tasks). 
+
+Map – We define a task and keep appending the list of states using Send.
+
+Reduce- Then we, take the list of states and invoke the llm to get the final results. 
+
+**Tweaks:** Changed the model to Gemini and GoogleAI. Changed the example from generating jokes to generating facts and giving tweets.  
