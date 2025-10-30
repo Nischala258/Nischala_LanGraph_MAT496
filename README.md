@@ -111,3 +111,8 @@ We can replay checkpoints by passing the checkpoint id while streaming. We learn
 We learn how to do parallelisation without causing any errors and ambiguity using reducers. We also learn how to use custom reducers to manage the order of the updates. 
 
 **Tweaks:** Changed the model to GoogleAI and Gemini. Changed the graphs and the question.
+
+## Lesson 2: 
+We learn how to build sub graphs which help us manage different states in a graph. 
+
+**Tweaks:** Changed the content given to the nodes. 
