@@ -105,3 +105,9 @@ We learn that we can get the state of the graph at any given time using graph.ge
 We can replay checkpoints by passing the checkpoint id while streaming. We learn how to fork previous checkpoints. We can do this using Langchain API as well. 
 
 **Tweaks :** Changed the model from openAI to Gemini and GoogleAI. Changed the tool.
+
+# Module 4:
+## Lesson 1:
+We learn how to do parallelisation without causing any errors and ambiguity using reducers. We also learn how to use custom reducers to manage the order of the updates. 
+
+**Tweaks:** Changed the model to GoogleAI and Gemini. Changed the graphs and the question.
