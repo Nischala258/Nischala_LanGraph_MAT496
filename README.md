@@ -125,3 +125,8 @@ Map – We define a task and keep appending the list of states using Send.
 Reduce- Then we, take the list of states and invoke the llm to get the final results. 
 
 **Tweaks:** Changed the model to Gemini and GoogleAI. Changed the example from generating jokes to generating facts and giving tweets.  
+
+## Lesson 4: 
+We learn how to build an automated research assistant. It includes research analyst (with human feedback) , then each analyst conducts research in parallelization with the help of external sources (web search) and finally the reduce phase compiles all of it into a report. 
+
+**Tweaks:** Changed the model to GoogleAI and Gemini. Changed the research topic. 
